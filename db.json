@@ -333,216 +333,41 @@
       "name": "용돈·기타수입",
       "type": "income",
       "color": "#E6EE9C"
-    },
-    {
-      "id": 17,
-      "name": "카페·간식",
-      "type": "expense",
-      "color": "#FFAB91"
-    },
-    {
-      "id": 18,
-      "name": "취미·운동",
-      "type": "expense",
-      "color": "#81C784"
-    },
-    {
-      "id": 19,
-      "name": "미용",
-      "type": "expense",
-      "color": "#FBC02D"
     }
   ],
-  "userSettings": [],
-  "users": [],
-  "favoritePlaces": [
+  "userSettings": [
     {
+      "id": 1,
       "userId": "admin",
-      "placeName": "백화점",
-      "addressName": "서울특별시 중구 남대문로3가  110",
-      "roadAddressName": "서울특별시 중구 남대문로3가 남대문로 39",
-      "lat": 37.5616156,
-      "lng": 126.9800488,
-      "placeUrl": "",
-      "memo": "굳",
-      "category": "데이트",
-      "id": 1
+      "name": "admin",
+      "email": "user@example.com",
+      "monthlyBudget": 3000000,
+      "currency": "KRW"
     },
     {
+      "userId": "aaaa",
+      "name": "aaaa",
+      "email": "",
+      "monthlyBudget": 3000000,
+      "currency": "KRW",
+      "id": 2
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
       "userId": "admin",
-      "placeName": "미식반점 군자본점",
-      "addressName": "서울특별시 광진구 군자동 362-1 동일흥업주식회사",
-      "roadAddressName": "서울특별시 광진구 군자로 70 동일흥업주식회사",
-      "lat": 37.5489803,
-      "lng": 127.0710721,
-      "placeUrl": "https://www.instagram.com/misik_official",
-      "memo": "굳굳",
-      "category": "기타",
+      "password": "1234"
+    },
+    {
+      "userId": "dd",
+      "password": "1234",
       "id": 2
     },
     {
-      "userId": "admin",
-      "placeName": "경복궁",
-      "addressName": "서울특별시 종로구 세종로 1-1 경복궁",
-      "roadAddressName": "서울특별시 종로구 사직로 161 경복궁",
-      "lat": 37.5788408,
-      "lng": 126.9770162,
-      "placeUrl": "https://royal.khs.go.kr/gbg",
-      "memo": "ㅇㅇㅇㅇ",
-      "category": "기타",
+      "userId": "aaaa",
+      "password": "1234",
       "id": 3
-    },
-    {
-      "userId": "admin",
-      "placeName": "스타필드애비뉴 그랑서울",
-      "addressName": "서울특별시 종로구 청진동 70 그랑서울",
-      "roadAddressName": "서울특별시 종로구 종로 33 그랑서울",
-      "lat": 37.57096,
-      "lng": 126.9814392,
-      "placeUrl": "https://www.starfieldavenue.co.kr/granseoul",
-      "memo": "ㅇㅇ",
-      "category": "기타",
-      "id": 4
-    },
-    {
-      "userId": "admin",
-      "placeName": "짜글이미식회",
-      "addressName": "서울특별시 성북구 안암동1가 2-2",
-      "roadAddressName": "서울특별시 성북구 고려대로7길 72",
-      "lat": 37.5887585,
-      "lng": 127.0192695,
-      "placeUrl": "",
-      "memo": "ㄱㄱ",
-      "category": "기타",
-      "id": 5
-    },
-    {
-      "userId": "admin",
-      "placeName": "숙성부심 군자본점",
-      "addressName": "서울특별시 광진구 군자동 2-51",
-      "roadAddressName": "서울특별시 광진구 능동로 267",
-      "lat": 37.5539179,
-      "lng": 127.0774022,
-      "placeUrl": "https://www.instagram.com/sooksungboosim?igsh=MWU1aGZyeTJscjVhOQ",
-      "memo": "아주 맛집입니다잉",
-      "category": "기타",
-      "id": 6,
-      "createdAt": "2026-04-09T05:31:52.798Z"
-    },
-    {
-      "userId": "admin",
-      "placeName": "왕천파닭 율량점",
-      "addressName": "충청북도 청주시 청원구 율량동 1980",
-      "roadAddressName": "충청북도 청주시 청원구 율봉로 270-1",
-      "lat": 36.6665758,
-      "lng": 127.4985299,
-      "placeUrl": "",
-      "memo": "굳굳",
-      "category": "맛집",
-      "id": 7
-    },
-    {
-      "userId": "admin",
-      "placeName": "또래끼리",
-      "addressName": "서울특별시 광진구 군자동 102-13",
-      "roadAddressName": "서울특별시 광진구 군자로 101",
-      "lat": 37.5523229,
-      "lng": 127.0712754,
-      "placeUrl": "",
-      "memo": "",
-      "category": "맛집",
-      "id": 8
-    },
-    {
-      "userId": "admin",
-      "placeName": "한강 산책",
-      "addressName": "서울특별시 중구 장교동  1",
-      "roadAddressName": "서울특별시 중구 장교동 삼일대로 363",
-      "lat": 37.5674815,
-      "lng": 126.9870878,
-      "placeUrl": "",
-      "memo": "",
-      "category": "산책",
-      "createdAt": "2026-04-09T01:04:24.201Z",
-      "id": 9
-    },
-    {
-      "userId": "admin",
-      "placeName": "청산시장",
-      "addressName": "서울특별시 중구 주교동  19",
-      "roadAddressName": "서울특별시 중구 주교동 동호로37길 20",
-      "lat": 37.56857,
-      "lng": 127.0009065,
-      "placeUrl": "",
-      "memo": "로컬맛집",
-      "category": "맛집",
-      "createdAt": "2026-04-09T01:08:46.231Z",
-      "id": 10
-    },
-    {
-      "userId": "admin",
-      "placeName": "연세대학교 신촌캠퍼스",
-      "addressName": "서울특별시 서대문구 신촌동 134 연세대학교",
-      "roadAddressName": "서울특별시 서대문구 연세로 50 연세대학교",
-      "lat": 37.5671131,
-      "lng": 126.9390292,
-      "placeUrl": "http://www.yonsei.ac.kr/",
-      "memo": "아는형학교",
-      "category": "기타",
-      "createdAt": "2026-04-09T01:13:28.441Z",
-      "id": 11
-    },
-    {
-      "userId": "admin",
-      "placeName": "경찰서",
-      "addressName": "서울특별시 마포구 공덕동  168",
-      "roadAddressName": "서울특별시 마포구 공덕동 마포대로 163",
-      "lat": 37.5489063,
-      "lng": 126.9540429,
-      "placeUrl": "",
-      "memo": "ㅇㅇㅇ",
-      "category": "기타",
-      "createdAt": "2026-04-09T05:20:29.346Z",
-      "id": 12
-    },
-    {
-      "userId": "admin",
-      "placeName": "ㅇㅇ",
-      "addressName": "서울특별시 서대문구 충정로3가  414",
-      "roadAddressName": "",
-      "lat": 37.5591811,
-      "lng": 126.9626689,
-      "placeUrl": "",
-      "memo": "ㅇㅇㅇ",
-      "category": "산책",
-      "createdAt": "2026-04-09T05:22:39.549Z",
-      "id": 13
-    },
-    {
-      "userId": "admin",
-      "placeName": "ㅇㅇㅇㅇ",
-      "addressName": "서울특별시 마포구 아현동  610",
-      "roadAddressName": "서울특별시 마포구 아현동 마포대로 233",
-      "lat": 37.5526489,
-      "lng": 126.9561458,
-      "placeUrl": "",
-      "memo": "",
-      "category": "기타",
-      "createdAt": "2026-04-09T05:22:56.214Z",
-      "id": 14
-    },
-    {
-      "userId": "admin",
-      "placeName": "나폴리회관 강남역점",
-      "addressName": "서울특별시 강남구 역삼동 635-10",
-      "roadAddressName": "서울특별시 강남구 테헤란로5길 24",
-      "lat": 37.5001627,
-      "lng": 127.029093,
-      "placeUrl": "http://instagram.com/napolihall",
-      "memo": "아주 맛잇습니다",
-      "category": "맛집",
-      "createdAt": "2026-04-09T05:41:02.668Z",
-      "id": 15
     }
   ]
 }
