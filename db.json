@@ -1,0 +1,296 @@
+{
+  "records": [
+    {
+      "id": 1,
+      "type": "expense",
+      "date": "2026-04-07",
+      "categoryId": 1,
+      "title": "점심 식사 (김치찌개)",
+      "amount": 10000,
+      "paymentMethod": "card",
+      "memo": "동료들과 식사",
+      "isFixed": false
+    },
+    {
+      "id": 2,
+      "type": "income",
+      "date": "2026-04-01",
+      "categoryId": 14,
+      "title": "4월 급여",
+      "amount": 3000000,
+      "paymentMethod": "transfer",
+      "memo": "본급",
+      "isFixed": false
+    },
+    {
+      "id": 3,
+      "type": "expense",
+      "date": "2026-04-25",
+      "categoryId": 7,
+      "title": "월세",
+      "amount": 500000,
+      "paymentMethod": "transfer",
+      "recurringDay": 25,
+      "memo": "자동이체",
+      "isFixed": true
+    },
+    {
+      "id": 4,
+      "type": "expense",
+      "date": "2026-04-05",
+      "categoryId": 3,
+      "title": "지하철 정기권",
+      "amount": 62000,
+      "paymentMethod": "card",
+      "memo": "4월분",
+      "isFixed": false
+    },
+    {
+      "id": 5,
+      "type": "expense",
+      "date": "2026-04-06",
+      "categoryId": 2,
+      "title": "전기·가스 요금",
+      "amount": 98000,
+      "paymentMethod": "transfer",
+      "memo": "4월 합산",
+      "isFixed": false
+    },
+    {
+      "id": 6,
+      "type": "expense",
+      "date": "2026-04-08",
+      "categoryId": 8,
+      "title": "회식 (삼겹살)",
+      "amount": 42000,
+      "paymentMethod": "card",
+      "memo": "팀 회식",
+      "isFixed": false
+    },
+    {
+      "id": 7,
+      "type": "income",
+      "date": "2026-04-10",
+      "categoryId": 15,
+      "title": "배당금",
+      "amount": 120000,
+      "paymentMethod": "transfer",
+      "memo": "분기 배당",
+      "isFixed": false
+    },
+    {
+      "id": 8,
+      "type": "expense",
+      "date": "2026-04-09",
+      "categoryId": 9,
+      "title": "생활용품",
+      "amount": 35000,
+      "paymentMethod": "card",
+      "memo": "마트",
+      "isFixed": false
+    },
+    {
+      "id": 9,
+      "type": "expense",
+      "date": "2026-04-04",
+      "categoryId": 5,
+      "title": "병원 진료",
+      "amount": 15000,
+      "paymentMethod": "card",
+      "memo": "일반진료",
+      "isFixed": false
+    },
+    {
+      "id": 10,
+      "type": "expense",
+      "date": "2026-04-02",
+      "categoryId": 4,
+      "title": "영화 관람",
+      "amount": 14000,
+      "paymentMethod": "card",
+      "memo": "주말",
+      "isFixed": false
+    },
+    {
+      "type": "expense",
+      "date": "2026-04-07",
+      "categoryId": 1,
+      "title": "점심식사",
+      "amount": 4300,
+      "paymentMethod": "card",
+      "memo": "해물짬뽕",
+      "isFixed": false,
+      "id": 11
+    },
+    {
+      "id": 12,
+      "type": "income",
+      "date": "2026-02-10",
+      "categoryId": 14,
+      "title": "2월 급여",
+      "amount": 2800000,
+      "isFixed": true
+    },
+    {
+      "id": 13,
+      "type": "expense",
+      "date": "2026-02-15",
+      "categoryId": 1,
+      "title": "외식",
+      "amount": 120000,
+      "isFixed": false
+    },
+    {
+      "id": 14,
+      "type": "expense",
+      "date": "2026-02-25",
+      "categoryId": 7,
+      "title": "월세",
+      "amount": 500000,
+      "isFixed": true
+    },
+    {
+      "id": 15,
+      "type": "income",
+      "date": "2026-03-10",
+      "categoryId": 14,
+      "title": "3월 급여",
+      "amount": 2900000,
+      "isFixed": true
+    },
+    {
+      "id": 16,
+      "type": "expense",
+      "date": "2026-03-12",
+      "categoryId": 9,
+      "title": "봄옷 쇼핑",
+      "amount": 250000,
+      "isFixed": false
+    },
+    {
+      "id": 17,
+      "type": "expense",
+      "date": "2026-03-25",
+      "categoryId": 7,
+      "title": "월세",
+      "amount": 500000,
+      "isFixed": true
+    },
+    {
+      "id": 18,
+      "type": "expense",
+      "date": "2026-03-05",
+      "categoryId": 3,
+      "title": "교통비",
+      "amount": 55000,
+      "isFixed": false
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "식비",
+      "type": "expense",
+      "color": "#F48FB1"
+    },
+    {
+      "id": 2,
+      "name": "공과금",
+      "type": "expense",
+      "color": "#90CAF9"
+    },
+    {
+      "id": 3,
+      "name": "교통",
+      "type": "expense",
+      "color": "#FFCC80"
+    },
+    {
+      "id": 4,
+      "name": "문화생활",
+      "type": "expense",
+      "color": "#A5D6A7"
+    },
+    {
+      "id": 5,
+      "name": "의료",
+      "type": "expense",
+      "color": "#B39DDB"
+    },
+    {
+      "id": 6,
+      "name": "교육",
+      "type": "expense",
+      "color": "#FFF59D"
+    },
+    {
+      "id": 7,
+      "name": "주거",
+      "type": "expense",
+      "color": "#CE93D8"
+    },
+    {
+      "id": 8,
+      "name": "외식",
+      "type": "expense",
+      "color": "#EF9A9A"
+    },
+    {
+      "id": 9,
+      "name": "쇼핑",
+      "type": "expense",
+      "color": "#81DEEA"
+    },
+    {
+      "id": 10,
+      "name": "미용",
+      "type": "expense",
+      "color": "#C5E1A5"
+    },
+    {
+      "id": 11,
+      "name": "경조사",
+      "type": "expense",
+      "color": "#FFE082"
+    },
+    {
+      "id": 12,
+      "name": "자녀교육",
+      "type": "expense",
+      "color": "#BCAAA4"
+    },
+    {
+      "id": 13,
+      "name": "기타",
+      "type": "expense",
+      "color": "#B0BEC5"
+    },
+    {
+      "id": 14,
+      "name": "월급",
+      "type": "income",
+      "color": "#A5D6A7"
+    },
+    {
+      "id": 15,
+      "name": "이자·배당",
+      "type": "income",
+      "color": "#80CBC4"
+    },
+    {
+      "id": 16,
+      "name": "용돈·기타수입",
+      "type": "income",
+      "color": "#E6EE9C"
+    }
+  ],
+  "userSettings": [
+    {
+      "id": 1,
+      "name": "admin",
+      "email": "user@example.com",
+      "monthlyBudget": 3000000,
+      "currency": "KRW"
+    }
+  ]
+}
