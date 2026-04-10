@@ -1898,6 +1898,7 @@
       "currency": "KRW"
     }
   ],
+  "favoritePlaces": [],
   "users": [
     { "id": 1, "userId": "admin", "password": "1234" },
     { "id": 2, "userId": "dd", "password": "1234" },
