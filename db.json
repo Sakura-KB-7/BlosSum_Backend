@@ -1906,7 +1906,34 @@
       "currency": "KRW"
     }
   ],
-  "favoritePlaces": [],
+  "favoritePlaces": [
+  {
+    "userId": "admin",
+    "placeName": "222",
+    "addressName": "서울특별시 종로구 평동  211",
+    "roadAddressName": "",
+    "lat": 37.5660231,
+    "lng": 126.9668729,
+    "placeUrl": "",
+    "memo": "333",
+    "category": "기타",
+    "createdAt": "2026-04-13T01:28:38.491Z",
+    "id": 1
+  },
+  {
+    "userId": "admin",
+    "placeName": "333",
+    "addressName": "서울특별시 중구 태평로2가  58",
+    "roadAddressName": "",
+    "lat": 37.5636418,
+    "lng": 126.9773443,
+    "placeUrl": "",
+    "memo": "22",
+    "category": "쇼핑",
+    "createdAt": "2026-04-13T01:29:06.522Z",
+    "id": 2
+  }
+],
   "users": [
     { "id": 1, "userId": "admin", "password": "1234" },
     { "id": 2, "userId": "dd", "password": "1234" },
