@@ -1896,6 +1896,14 @@
       "email": "",
       "monthlyBudget": 3000000,
       "currency": "KRW"
+    },
+    {
+      "id": 3,
+      "userId": "dd",
+      "name": "dd",
+      "email": "",
+      "monthlyBudget": 3000000,
+      "currency": "KRW"
     }
   ],
   "favoritePlaces": [],
